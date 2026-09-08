@@ -11,6 +11,8 @@ Es una IA especificamente creada para este juego que incluye pensamiento para el
 
 ## Vida y Mecanicas especificas de cada personaje 
 (Para Sacha esto varía dependiendo de los oponentes)
+### Vida
+![Sacha](https://img.shields.io/badge/Sacha-%203500%20Puntos-blue?style=flat) ![Coco](https://img.shields.io/badge/Coco-%204800%20Puntos-green?style=flat) ![Nieves](https://img.shields.io/badge/Nieves-%201950%20Puntos-yellow?style=flat) ![Lucas](https://img.shields.io/badge/Lucas-%202000%20Puntos-white?style=flat) 
 ### Ataque Básico
 ![Sacha 200](https://img.shields.io/badge/Sacha-%20200%20Puntos-blue?style=flat) ![Coco 400](https://img.shields.io/badge/Coco-%20400%20Puntos-green?style=flat) ![Nieves 250](https://img.shields.io/badge/Nieves-%20250%20Puntos-yellow?style=flat) ![Lucas 300](https://img.shields.io/badge/Lucas-%20300%20Puntos-white?style=flat) 
 ### Protección de Escudo
