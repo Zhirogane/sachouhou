@@ -1,5 +1,5 @@
 # Sachouhou
-![Repositorio GitHub](https://img.shields.io/badge/Repositorio-GitHub-blue?style=flat)
+[![Abrir la Página Web](https://img.shields.io/badge/Abrir-Sachouhou%20en%20Web-blue?style=flat)](https://zhirogane.github.io/sachouhou)
 
 Es un nuevo juego de ataques por turnos por el que se puede acceder en web inspirado en Touhou Project
 > Este juego es 100% experimental asi que no tiene muchas mecanicas.
