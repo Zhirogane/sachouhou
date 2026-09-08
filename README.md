@@ -1,7 +1,7 @@
 # Sachouhou
 ![Repositorio GitHub](https://img.shields.io/badge/Repositorio-GitHub-blue?style=flat)
 
-Es un nuevo juego por el que se puede acceder tanto en web como en zip (este solo disponible para computadora).
+Es un nuevo juego por el que se puede acceder en web
 > Este juego es 100% experimental asi que no tiene muchas mecanicas.
 
 # Mecanicas
