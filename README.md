@@ -11,8 +11,11 @@ Es una IA especificamente creada para este juego que incluye pensamiento para el
 
 ## Botones
 **Ataque Básico**: Da un ataque con un cooldown bastante bajo y quita unos pocos cientos puntos de vida
+
 **Escudo**: Este te protege contra ataques del enemigo y en casos como el de Lucas desvia los ataques hacia el oponente
+
 **Ataque Especial**: Es el que hace mas daño y con un cooldown alto para evitar spameo
+
 **Random**: Es para cuando no sepas que usar te da la opcion de aletorizar y usar lo que la matematica quiera
 
 ## Vida y Mecanicas especificas de cada personaje 
