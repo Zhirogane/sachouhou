@@ -9,7 +9,8 @@ Es un nuevo juego por el que se puede acceder tanto en web como en zip (este sol
 ### CocoAI
 Es una IA especificamente creada para este juego que incluye pensamiento para elegir la acción que va a hacer.
 
-## Vida y Mecanicas especificas de cada personaje (Para Sacha esto varía dependiendo de los oponentes)
+## Vida y Mecanicas especificas de cada personaje 
+(Para Sacha esto varía dependiendo de los oponentes)
 ### Ataque Básico
 ![Sacha 200](https://img.shields.io/badge/Sacha-%20200%20Puntos-blue?style=flat) ![Coco 400](https://img.shields.io/badge/Coco-%20400%20Puntos-green?style=flat) ![Nieves 250](https://img.shields.io/badge/Nieves-%20250%20Puntos-yellow?style=flat) ![Lucas 300](https://img.shields.io/badge/Lucas-%20300%20Puntos-white?style=flat) 
 ### Protección de Escudo
