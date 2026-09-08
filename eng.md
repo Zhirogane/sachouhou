@@ -1,5 +1,5 @@
 ### Sachouhou
-![Repository GitHub](https://img.shields.io/badge/Repository-GitHub-blue?style=flat) ![Cambiar Idioma Español](https://img.shields.io/badge/Cambiar%20Idioma-Español-yellow?style=flat) 
+![Repository GitHub](https://img.shields.io/badge/Repository-GitHub-blue?style=flat) [![Cambiar Idioma Español](https://img.shields.io/badge/Cambiar%20Idioma-Español-yellow?style=flat)](./README.md)
 
 This is a new game that is aviable in web and also in zip (only in PC).
 > This game is an experiment so it doesnt have too much mechanics
