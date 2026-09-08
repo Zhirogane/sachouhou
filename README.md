@@ -9,6 +9,12 @@ Es un nuevo juego por el que se puede acceder en web inspirado en Touhou Project
 ### CocoAI
 Es una IA especificamente creada para este juego que incluye pensamiento para elegir la acción que va a hacer.
 
+## Botones
+**Ataque Básico**: Da un ataque con un cooldown bastante bajo y quita unos pocos cientos puntos de vida
+**Escudo**: Este te protege contra ataques del enemigo y en casos como el de Lucas desvia los ataques hacia el oponente
+**Ataque Especial**: Es el que hace mas daño y con un cooldown alto para evitar spameo
+**Random**: Es para cuando no sepas que usar te da la opcion de aletorizar y usar lo que la matematica quiera
+
 ## Vida y Mecanicas especificas de cada personaje 
 (Para Sacha esto varía dependiendo de los oponentes)
 ### Vida
