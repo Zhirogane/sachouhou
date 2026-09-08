@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+<link rel="icon" type="image/png" href="favicon.png">
 <title>Sachouhou</title>
 <style>
         body {
@@ -60,34 +60,5 @@
     <p class="subtitle">Página de Inicio</p>
     <p>Sign up</a></p>
 </div>
-
-<script>
-    const passwordInput = document.getElementById('passwordInput');
-    const toggleBtn = document.getElementById('toggleBtn');
-    
-    toggleBtn.addEventListener('click', () => {
-        const isPassword = passwordInput.type === 'password';
-        passwordInput.type = isPassword ? 'text' : 'password';
-        toggleBtn.textContent = isPassword ? 'Hide' : 'Show';
-    });
-
-    const loginForm = document.getElementById("loginForm");
-    const usernameInput = document.getElementById("usernameInput");
-    const jsError = document.getElementById("jsError");
-
-    loginForm.onsubmit = (e) => {
-        let val = usernameInput.value.trim().toLowerCase();
-        if (val.includes(" ")) {
-            e.preventDefault();
-            jsError.textContent = "Username cannot contain spaces.";
-            jsError.classList.add("visible");
-            return;
-        }
-        jsError.classList.remove("visible");
-        if (val && !val.startsWith("@")) {
-            usernameInput.value = "@" + val;
-        }
-    };
-</script>
 </body>
 </html>
