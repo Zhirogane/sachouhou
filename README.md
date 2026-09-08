@@ -1,5 +1,5 @@
 ### Sachouhou
-![Repositorio GitHub](https://img.shields.io/badge/Repositorio-GitHub-blue?style=flat) ![Change Language English](https://img.shields.io/badge/Change%20Language-English-yellow?style=flat) 
+![Repositorio GitHub](https://img.shields.io/badge/Repositorio-GitHub-blue?style=flat) [![Change Language English](https://img.shields.io/badge/Change%20Language-English-yellow?](./eng.md)style=flat) 
 
 Es un nuevo juego por el que se puede acceder tanto en web como en zip (este solo disponible para computadora).
 > Este juego es 100% experimental asi que no tiene muchas mecanicas.
