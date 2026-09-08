@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+<title>Goldentsuko - Log in</title>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+</head>
+<body>
+<div class="container">
+    <h1>Goldentsuko</h1>
+    <p class="subtitle">Log In</p>
+
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    <p id="jsError" class="error"></p>
+
+    <form id="loginForm" method="POST">
+        <label for="usernameInput">Username</label>
+        <input type="text" id="usernameInput" name="username" placeholder="Type your username" required autocomplete="off">
+        
+        <label for="passwordInput">Password</label>
+        <div class="pass-wrapper">
+            <input type="password" id="passwordInput" name="password" placeholder="Type your password" required>
+            <button type="button" id="toggleBtn">Show</button>
+        </div>
+
+        <button type="submit">Log In</button>
+    </form>
+    <p class="register-link"><a href="/signup">Sign up</a></p>
+</div>
+
+<script>
+    const passwordInput = document.getElementById('passwordInput');
+    const toggleBtn = document.getElementById('toggleBtn');
+    
+    toggleBtn.addEventListener('click', () => {
+        const isPassword = passwordInput.type === 'password';
+        passwordInput.type = isPassword ? 'text' : 'password';
+        toggleBtn.textContent = isPassword ? 'Hide' : 'Show';
+    });
+
+    const loginForm = document.getElementById("loginForm");
+    const usernameInput = document.getElementById("usernameInput");
+    const jsError = document.getElementById("jsError");
+
+    loginForm.onsubmit = (e) => {
+        let val = usernameInput.value.trim().toLowerCase();
+        if (val.includes(" ")) {
+            e.preventDefault();
+            jsError.textContent = "Username cannot contain spaces.";
+            jsError.classList.add("visible");
+            return;
+        }
+        jsError.classList.remove("visible");
+        if (val && !val.startsWith("@")) {
+            usernameInput.value = "@" + val;
+        }
+    };
+</script>
+</body>
+</html>
